@@ -1,0 +1,58 @@
+mostrar: "seleccione codigo para tipo de cliente y o terminarlo"
+1 = min
+2 = normal
+3 = avanzado
+4 = sup
+cmin = 0
+cnorm = 0 
+cavz = 0 
+csup = 0
+csocios = 0
+smin = 0
+snorm = 0
+savz = 0 
+ssup = 0
+ingresar codigo , gasto
+mientras codigo>0 codigo<5
+	si codigo = 1
+		cmin = cmin + 1
+		smin = smin + gasto
+	si codigo = 2
+		cnorm = cnorm + 1
+		snorm = snorm + gasto
+	si codigo = 3
+		cavz = cavz + 1 
+		savz = savz + gasto
+	sino 
+		csup = csup + csup
+		ssup = csup + gasto 
+	csocios = csocios + 1
+	sumatotal = sumatoal + gastos
+	mostrar "hay", ctotal, "clientes"
+	promedio = stotal/ctotal
+	mostrar promedio
+	mostrar contmin, contnorm, contavz, contsup
+	may1 = sumadormin
+	may2= sumadornorm
+	si sumadormin < sumadornorm
+		may1 = sumadornorm
+		may2 = sumadormin
+	si may1 < sumadorsup
+		may2 = may1
+		may1 = sumadotsup
+	sino may2 < sumadorsup
+		may2 = sumadorsup
+	si may1 = sumadoravz
+		may2 = may1
+		may1 = sumadoravz
+	sino may2 < sumadoravz
+		may2 = sumadoravz
+	mostrar may1, may2
+
+
+		
+	
+	
+
+
+

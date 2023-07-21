@@ -1,0 +1,71 @@
+1. Cantidad total de reparaciones en general
+2. cantidad total de reparaciones de hardwere
+3. cantidad total de reparaciones de softwere
+4. promedio en porcentaje de reparaciones resueltas por cada tecnico
+5. cantidad de horas trabajadas por cada tecnico
+################################################################################## 
+ctotal=o
+TH1=0
+TH2=0
+TH3=0
+TH4=0
+CHARD1=0
+CSOFT1=0
+CHARD2=0
+CSOFT2=0
+CHARD3=0
+CSOFRT3=0
+CHARD4=0
+CSOFT4=0
+CHARDTOTAL=0
+CSOFTOTAL=0
+mostrar "ingresar tipo de trabajo, s para continuar, n para terminar"
+ingresar r
+mientras r = "s"
+	ingresar tecnico
+		si tencnico = 1
+			ingresar trabajo, horas
+				si trabajo= "h"
+					chard1 = cahard1 + 1
+				si trabajo = "s"
+					csoft1 = csoft + 1
+				sino mostrar "no se puede arreglar"
+		Th1 = th1 + horas
+		si tecnico = 2 
+			ingresar trabjo, horas
+				si trabajo = "h"
+					chard2= chard2 + 1
+				si trabajo = "s"
+					csoft2 = csoft2 + 1
+				sino mostrar "no se puede reparar"
+		th2 = th2 + horas
+		Si tecnico = 3
+			ingresar trabjo, horas
+				si trabajo = "h"
+					chard3 = chard3 + 1
+				si trabajo = "s"
+					csoft = csoft + 1
+				sino mostrar " no se puede reparar"
+					
+		th3 = th3 + horas
+		si tecnico = 4
+			ingresar trabajo, horas
+				si trabajo = "h"
+					chard4 = chard4 + 1
+				si trabajo = "s"
+					csoft4 = csoft4 + 1
+		th4 = th4 + horas
+	ctotalhard = chard1 + cahard2 + chard3 + chard4
+	ctotalsoft = csoft1 + csoft2 + csoft3 + csoft4
+	ctotal = ctotalhard + ctotalsoft 
+	promedioT1 = csoft1 + chard1 / ctotal
+	promedioT2 = csoft2 + chard2 / ctotal
+	promediot3 = csoft3 + chard3 / ctotal
+	promediot4 = csoft4 + chard4 / ctotal
+	mostrar "cantidad total de reparaciones" ctotal
+	mostrar "cantidad total de reparaciones softwere" ctotatsoft
+	mostrar "catidad total de reparaciones hardwere" ctotalhard
+	mostrar "promedio de en porcentaje de reparaciones por tecnico"
+	mostrar promedio 1, promedio2, promedio3, promedio4
+	mostrar "cantidad de horas trabajadas por cada tecnico" 
+	mostrar th1, th2, th3, th4

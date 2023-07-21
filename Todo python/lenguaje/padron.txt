@@ -1,0 +1,7 @@
+22002255,Perez Juan,prs,m,454
+1824457,Lavaque Rube,fpv,m,1520
+45454544,Susana Gomez,ucr,f,1530
+18715454,Garcia Elsa,pjs,f,250
+6554544,Torrez Hilda,pjs,f,512
+48787777,Perez Juan,fpv,m,2589
+1245487,Gomeza Anton,pjs,m,54

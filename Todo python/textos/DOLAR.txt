@@ -1,0 +1,34 @@
+n=int(input("ingrese la cantidad de usuarios para banco A"))
+A=[]
+for i in range (0,n):
+    dni=int(input("ingrese dni"))
+    A.append(dni)
+    A.append(str(input("ingrese el nombre")))
+    A.append(str(input("ingrese domicilio")))
+m=(int(input("ingrese la cantidad de usuarios del banco B")))
+B=[]
+for j in range (0,m):
+    dni2=int(input("ingrese dni"))
+    B.append(dni2)
+    B.append(str(input("ingrese nombre")))
+    B.append(str(input("ingrese domicilio")))
+C=[]
+for k in range (0,(n*3),3):
+    bandera=0
+    for f in range (0,(m*3),3):
+        if A[k]==B[f]:
+            bandera=1
+        if bandera==0:
+            C.append(A[k])
+            C.append(A[k+1])
+            C.append(A[k+2])
+for k in range (0,(m*3),3):
+    bandera=0
+    for f in range (0,(n*3),3):
+        if B[k]==A[f]:
+            bandera=1
+        if bandera==0:
+            C.append(B[k])
+            C.append(B[k+1])
+            C.append(B[k+2])
+print(C)

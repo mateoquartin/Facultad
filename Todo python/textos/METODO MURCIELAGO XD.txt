@@ -1,0 +1,13 @@
+un congreso de informatica virtual genero automaticamente USUARIO y contraseña de cada uno de los exposiotres. el usuario generado por el apellido y dos ultimos dijistos del DNI y la contraseña se genera con el codigo MURCIELAGO que consiste en lo siguiente 
+	*Se debe reemplazar cada letra del apellido por su correspondiente codigo codigo de MURCIELGO mas el inidice que tiene el apellido en el vector original (para evitar casos de apellidos repetidos). Si alguna letra del apellido no coincide con el codigo, dejar la letra como esta originalmente
+	*El vector 
+	|M|U|R|C|I|E|L|A|G|O|
+	*Corresponde los siguientes numeros
+	|0|1||2|3||4|5|6|7|8|9|
+	
+	*Por ejemplo si el apellido es martinez y esta en la posicion 6 del vector, el codigo 	sera 072T4N5Z6
+
+dado una lista de datos de EXPOSITORES ingresados en un vector, se solicita 
+generar USUARIO y CONTRASEÑA de los mismos en el mismo vector insertandolos a continuacion de DNI 
+	*EJEMPLO
+	

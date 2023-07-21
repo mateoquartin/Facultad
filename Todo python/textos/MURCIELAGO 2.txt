@@ -1,0 +1,61 @@
+n=int(input("cantida de gente a registar "))
+apellido=[]
+dni=[]
+codigo=[]
+user=[]
+
+for i in range (0,n):
+    flag=0
+    counter=0
+    ultimosdos=0
+    apellidoj=str(input("ingrese apellido "))
+    dni1=int(input("ingrese dni "))
+    apellido.append(apellidoj)
+    dni.append(dni1)
+    while counter < 2:
+        ultimo=dni1%10
+        if ultimo == 0:
+            flag=1
+        ultimosdos=ultimosdos*10+ultimo
+        dni1=dni1//10
+        counter=counter+1
+    if flag == 0:  
+        print("El usuario numero ",i, "es : ", apellidoj,ultimosdos)
+    else:
+        print("El usuario numero ",i, "es : ", apellidoj,ultimosdos*10)
+    
+
+
+contador=0  
+lugar=0
+for apellidoj in apellido:
+    for m in apellidoj:
+        if m in "mM":
+            codigo.append(0)
+        elif m in "uU":
+            codigo.append(1)
+        elif m in "rR":
+            codigo.append(2)
+        elif m in "cC":
+            codigo.append(3)
+        elif m in "iI":
+            codigo.append(4)
+        elif m in "eE":
+            codigo.append(5)
+        elif m in "lL":
+            codigo.append(6)
+        elif m in "aA":
+            codigo.append(7)
+        elif m in "gG":
+            codigo.append(8)
+        elif m in "oO":
+            codigo.append(9)
+        else:
+            codigo.append(m) 
+    lugar=lugar+1
+    codigo.append(lugar)
+    print("el codigo del usuario numero ",contador, "es ", codigo)
+codigoi=""
+for t in codigo:
+    codigoi=codigoi+codigo[t]
+print (codigoi)

@@ -1,0 +1,66 @@
+Un negocio de ventas de comida califica a sus clientes en cuatro categorias: "minimo" el que realiza una compra 2 veces por semana, "normal"
+el que realiza una compra tres veces por semana, "avanzado"el que realiza una compra de lunes a sabado y "superiro" el que realiza mas de una
+compra por semana independientemente de los dias que realice las compras
+
+Se desea conocer la situacion del negocio en un mes determinado y dado que no se conoce la cantidad de socios, se solicita determinar:
+
+1_ Cuantos clientes hay en general 
+2_ Cuantos clientes existen de cada categoria 
+3_ Promedio de total recaudado
+4_ El total recaudado por cada categoria 
+5_ La primera y segunda categoria que mas facturo 
+6_ Categorias que estan por debajo del promedio
+
+Desarrollo
+
+mostrar"selecciona codigo para tipo de cliente, y 0 pra terminar"
+
+1: min
+2: normal
+3: avanzado
+4: superior
+Contador total=0
+Sup=0
+Cont Min=0
+Cont Norm=0
+Cont Avanz=0
+Cont Sup=0
+Sumador Min=0
+Sumador Norm=0
+Sumador Avanz=0
+Sumador Sup=0
+Ingresar cod, gasto
+mientras cod>0 y cod<5
+   si cod=1
+         c min=cmin+1
+         s min=smin + gasto
+   si cod=2
+         cnorm= cnorm+1
+         snorm= snorm + gasto
+   si cod=3 
+         cavanz= cavanz+1
+	   Savanz= Savanz+ gasto
+   c total= c total+1
+   s total= s total + gasto
+   Ingresar cod, gasto
+   mostrar "hay", Ctotal, "Clientes"
+   promedio= Stotal / Ctotal
+   mostrar promedio
+   mostrar cMin, cNor, Cavanz, Csup
+   mostrar Smin, Snor, Savanz, Ssup
+   May1= smin 
+   May2= snor
+   Si Smin< Snor
+      May1= Snor
+      May2= Smin
+   Si May1< Ssup
+      May2= May1
+      May1= Ssup
+   Sino May2< Ssup
+        May2= Ssup
+   Si May1< Savanz
+      May2= May1 
+      May1= Savanz
+   Sino si May2< Savanz
+           May2= Savanz
+   Mostrar May1, May2

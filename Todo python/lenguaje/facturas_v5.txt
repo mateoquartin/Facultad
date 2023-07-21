@@ -1,0 +1,70 @@
+24/02/2016 ; 2564; Roque; Tulio;  1500
+26/02/2016 ; 2565; Roque; Tulio;3100
+27/02/2016; 2566; Javier; Pintos; 3400
+27/02/2016;  345; Carlos; Alvarez;12000
+11/04/2017 ; 791; Tomás; Aguilar; 1000
+09/04/2017 ; 123; Mariano  ; Giménez; 55000
+28/02/2016;346; Carlos; Alvarez; 2000
+02/03/2016;2567; Amalia; Cresenti; 300
+03/03/2016 ;347; Carlos; Alvarez; 5600
+03/03/2016; 2579; Amalia; Cresenti;  1300
+05/03/2016  ;  2580; Ana ;Mayorino; 590
+05/03/2016;     2581;Alejandro ;Meyer; 5100
+05/03/2016 ;   348; Mario ; Arguello; 2100
+06/03/2016;  350; Carlos; Alvarez; 290
+07/03/2016; 2582; Gastón ;Lames; 1650
+16/05/2017; 235; Gabriel ; Castro; 2000
+09/04/2017 ; 789; Tomás; Aguilar; 16000
+09/04/2017 ; 44556; Franco; Ortiz; 18000
+09/04/2017; 567; Florencia; Peralta; 15000
+15/06/2017; 66778; Maximiliano; Vargas; 20000
+11/05/2017; 789; Ana ; Fernández ;17000
+12/06/2017 ; 889; Lucas; Sosa; 16000
+13/06/2017 ; 911; Carolina; Alvarez;19000
+09/04/2017 ; 122; Mariano  ; Giménez; 11000
+05/06/2017; 333; Natalia; Medina; 12000
+10/06/2017; 334; Franco; Ríos; 13000
+19/06/2017 ; 455; Antonella; Flores; 15000
+12/05/2017 ; 556; Leonardo; Molina; 17000
+18/06/2017 ; 677; Milagros; Benítez ; 18000
+09/04/2017 ; 788; Tomás; Aguilar; 16000
+11/06/2017; 889 ; Sofía; Córdoba; 19000
+13/05/2017; 901; Agustín; Herrera; 20000
+19/06/2017;121;Catalina;Duarte;15000
+14/05/2017; 232; Gabriel ; Castro; 13000
+04/08/2020;  2564; Alicia; Magno;  19000
+26/02/2021 ; 2565 ; Alicia ;   Magno ; 36000
+27/02/2021;  2566; Javier; Pintos; 3400
+12/12/2021;  347; Carlos; Alvarez; 50600
+02/10/2020; 114; Santiago; Romero; 11200
+08/04/2020; 10987; María; Gómez; 15000
+12/12/2021;2579; Romualdo; Perez;  10300
+20/11/2022 ; 118; Sofía; González; 34000
+05/12/2021 ;  2580; Ana; Mayorino; 59500
+15/12/2021; 2581;Alejandro; Meyer; 51200
+09/08/2020 ; 23456 ; Ana María ; Sánchez;  25000
+05/12/2021 ; 348; Maria;  Arguello ; 21000
+31/12/2021;  350; Carlos; Alvarez ; 29000
+30/12/2022; 443; Santiago; Romero; 5000
+07/12/2021;  2582; Gastón; Lames; 16500
+19/06/2022 ; 433; Martín; Gómez; 10900
+27/02/2021;345; Carlos; Alvarez;19000
+28/02/2021;  346; Carlos; Alvarez; 6000
+02/12/2021 ;  2567 ; Romualdo ; Perez  ; 31000
+05/08/2020; 351; Alicia; Magno;  10000
+10/10/2020; 1083; Valeria; Torres; 3000
+09/04/2021; 12345; Juan; Pérez; 20000
+07/04/2021; 15678; Pedro ; Rodríguez; 30000
+05/03/2021 ; 19876; Luis ; Hernández; 12000
+09/04/2022 ; 12345; Juan; Pérez; 15000
+09/04/2022; 23456; Ana; García; 12000
+09/04/2022 ; 34567; Luis; Martínez; 18000
+09/04/2022 ; 45678; Sofía; González; 20000
+02/12/2021; 89; Pedro; Sánchez; 15000
+21/10/2022; 67890; Laura; Rodríguez; 13000
+03/09/2022; 701; Diego; Fernández; 16000
+03/12/2021; 892; Lucía; Díaz; 17000
+09/05/2022 ; 903; Martín; Gómez; 1900
+01/02/2022; 123; Valeria; Torres; 11000
+02/11/2021; 22334; Santiago; Romero; 14000
+14/04/2022 ; 335; Camila; Acosta; 13000

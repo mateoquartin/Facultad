@@ -1,0 +1,15 @@
+#Dados N números, contar la cantidad de positivos pares múltiplos de x. 
+
+n = int(input("ingresar cantidad de numeros: "))
+cp = 0
+x = int(input("ingresar x: "))
+for i in range (n):
+   a = int(input("ingresar numero: "))
+   if (a>0) and ((a % 2==0)):
+        if a % x == 0:
+            cp = cp + 1
+
+
+print("la cantidad de numeros positivos pares multiplos de x son {}".format(cp))
+
+

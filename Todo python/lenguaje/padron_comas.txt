@@ -1,0 +1,7 @@
+22002255,,Perez Juan,,prs,1,m,45
+1824457,,Lavaque Rube,,fp,1,,m,1
+45454544,,Susana Gome,z,u,1,r,f,
+18715454,,Garcia Elsa,,pj,1,,f,2
+6554544,,Torrez Hilda,,pj,1,,f,5
+48787777,,Perez Juan,,fpv,1,m,25
+1245487,,Gomeza Anton,,pj,1,,m,5

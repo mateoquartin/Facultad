@@ -1,0 +1,27 @@
+verduleria
+
+ingresar cbananas
+ingresar cperas
+ingresar cmanzanas 
+ingresar pbananas
+ingresar pperas
+ingresar pmanzanas 
+hora = 0
+contadorfacturas = 0
+totalvendido = 0
+mientras hora < 24
+	ingresar hora
+	ingresar fbananas
+	ingresar fperas
+	ingresar fmanzanas 
+	si fbanas <= cbananas and fperas <= cperas and fmanzanas <= cmanzanas
+		cfacturas = cfacturas + 1
+		bananas = bananas - fbananas
+		peras = peras - fperas
+		manzanas = manzanas - fmanzanas
+		totalvendido = totalvendido + (fbananas*pbananas) + (fperas*pperas) + (fmanzanas* pmanzanas)
+	sino mostrar "no se puede realizar la factura por falta de stock"
+mostrar contadorfacturas
+mostrar totalvendido
+mostrar bananas, peras, manzanas
+		

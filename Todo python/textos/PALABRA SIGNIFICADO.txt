@@ -1,0 +1,53 @@
+n=int(input("Ingrese cant. de palabras: "))
+sere=[None]*n
+lozano=[]
+serrudo=[]
+for i in range(n):
+    sere[i]=str(input("Ingrese la palabra y su def: "))
+    sere[i]=sere[i].lower()
+r="si"
+r=r.upper()
+z=0
+while r=="SI":
+    x=str(input("Ingrese la palabra que desea buscar: "))    
+    x=x.lower()
+    serrudo.append(x)
+    i=0
+    c=True
+    while i<n and c:
+        j=0
+        b=True
+        while b and j<len(sere[i]):
+            if sere[i][j]==":":
+                pal=sere[i][:j]
+                b=False
+                if pal==serrudo[z]:
+                    print("def encontrada: ")
+                    print(sere[i][j+1:])
+                    serrudo=[]
+                    c=False
+                    z=z-1
+            else:
+                j=j+1
+        i=i+1
+    z=z+1
+    r=str(input("Desea ingresar otra palabra (S/N): "))
+    r=r.upper()
+print("Vector con palabras no encontradas y la cantidad de veces que se busco: ")
+i=0
+j=i+1
+m=len(serrudo)
+while i<m:
+    cont=1
+    while j<m:
+        if serrudo[i]==serrudo[j]:
+            for k in range(j,m-1):
+                serrudo[k]=serrudo[k+1]
+            m=m-1
+            cont=cont+1
+        else:
+            j=j+1
+    lozano.append(serrudo[i])
+    lozano.append(cont)
+    i=i+1
+print(lozano)

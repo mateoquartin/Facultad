@@ -1,0 +1,10 @@
+Fluidos
+	liquidos
+	gases
+Densidad P=m/v
+Presion P=df/da=f/a
+principio de pascal 
+	p1= f1/a1
+	f1/a1=f2/a2
+	p2=f2/a2
+	f2=f1.a2/a1

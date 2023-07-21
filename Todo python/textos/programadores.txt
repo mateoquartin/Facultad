@@ -1,0 +1,82 @@
+
+cnot1=0
+cins1=0
+cnot2=0
+cins2=0
+cnot3=0
+cins3=0
+ctotalnot=0
+ctotalins=0
+hsl1=0
+hsv1=0
+hsl2=0
+hsv2=0
+hsl3=0
+hsv3=0
+mostrar "ingresar tipo de trabajo s para continuar n para terminar"
+ingresar r 
+mientras r = "s"
+	ingresar programador
+		si programador = 1
+			ingresar trabajo, horas, municipio
+			si trabajo = "n"
+				cnot1= cnot1 + 1
+			si trabajo = "i"		
+				cins1 = cins1 + 1
+			sino mostrar "no se puede arreglar"
+			si municipio = sl
+				hsl1 = hsl1 + horas
+			si municipio = "sv"
+				hsv1 = hsv1 + horas
+		si programador = 2
+			ingresar trabajo, horas, municipio
+			si trabajo = "n"
+				cnot2= cnot2 + 1
+			si trabajo = "i"
+				cins2= cins2 + 1
+			Sino mostrar "no se puede arreglar"
+			si municipio = "sl"
+				hsv2 = hsl2 + horas
+			si municipio = "sv"
+				hsv2 = hsv2 + horas
+		si programador = 3 
+			ingrear trabajo, horas, municipio
+			si trabajo = "n"
+				cnot3 = cnot3 + 1
+			si trabajo = "i"
+				cins3 = cins3 + 1
+			sino mostrar "no se puede reparar"
+			si municipio = "sl"
+				hsl3 = hsl3 + horas
+			si municipio = "sv"
+				hsv3 = hsv3 + horas
+				
+	ctotalnot = cnot1 + cnot2 + cnot3
+	ctotalins = cins1 + cins2 + cins3
+	ctotalreq = ctotalnot + ctoalins
+	porcentajenot1 = cnot1 / ctotalnot
+	porcentajenot2 = cnot2 / ctotalnot
+	porcentajenot3 = cnot3 / ctotalnot
+	porcentajeins1 = cins1 / ctotalins
+	porcentajeins2 = cins2 / ctotalins
+	porcentajeins3 = cins3 / ctotalins
+	chorassl = hsl1 + hsl2 + hsl3
+	chorassv = hsv1 + hsv2 + hsv3
+	mostrar "cantidad de requerimientos resueltos" ctotalreq
+	mostrar "cantidad total de notas resueltas" ctotalnot
+	mostrar "cantidad total de incidentes resueltos" ctotalins
+	mostrar "promedio de notas resueltas de cada programador" 
+	mostrar "programador 1:" porcentajnot1
+	mostrar "programador 2:" porcentajenot2
+	mostrar "programador 3:" porcentajenot3
+	mostrar "porcentaje de incidentes resueltos por cada programador"
+	mostrar "programador 1" porcentajeins1
+	mostrar "programador 2" porcentajeins2
+	mostrar "programador 3" porcentajeins3
+	mostrar "cantidad de horas desarrolladas en el municipio sv" chorassv
+	mostrar "cantidad de horas desarrolladas en el municipio sl" chorasslg
+
+	
+				
+				
+
